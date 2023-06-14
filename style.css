@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* NAV BAR START */
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+    overflow-x: hidden;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: #d0edef;
+  }
+  
+  .header {
+    padding: 0 4.8rem;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7f5ff;
+  }
+  
+  .header .logo {
+    height: 3rem;
+  }
+  
+  .navbar-list {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+  }
+  
+  .navbar-link:link,
+  .navbar-link:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #212529;
+    transition: all 0.3s;
+  }
+  
+  .navbar-link:hover
+{
+    color: #364fc7;
+  }
+  
+  .mobile-navbar-btn {
+    display: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-icon {
+    width: 4rem;
+    height: 4rem;
+    color: #212529;
+  }
+  
+  .mobile-nav-icon[name="close-outline"] {
+    display: none;
+  }
+ 
+/* NAV BAR END */
+
+/* HOME SECTION START */
+#home {
+    /* position:absolute; */
+    background: url(/img/img5.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 25.89;
+    height: 653px;
+    width: 100%;
+}
+
+.firstcontener {
+    padding: 171px 0px 0px 0px;
+}
+
+#home h1 {
+    margin-left: 200px;
+    padding: 4px;
+    font-size: 3.2rem;
+    color: orange;
+}
+
+#home input {
+    margin-left: 200px;
+    width: 100px;
+    border-radius: 7px;
+    cursor: pointer;
+    border-color: white;
+    padding: 4px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#home input:hover {
+    background: rgb(35, 28, 28);
+    color: white;
+}
+
+#home p {
+    margin-left: 200px;
+    width: 417px;
+    padding: 0.5rem;
+
+}
+
+.p-secondary {
+    margin-top: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+/* HOME SECTION END */
+.afterhome {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 58px;
+}
+
+.contener {
+    width: 160px;
+    margin-left: 77px;
+}
+
+.stitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0px;
+    width: 1500px;
+
+}
+
+.stitem h1 {
+    margin: 13px;
+    color: orange;
+}
+
+.stitem p {
+    padding: 13px;
+}
+
+.ourstory {
+    height: 200px;
+}
+
+.ourstory img {
+    height: 200px;
+    width: 160px;
+}
+
+.jaihok {
+    background: wheat;
+    height: 90px;
+}
+
+#input {
+    display: block;
+    margin: auto;
+    padding: 6px 8px 5px 11px;
+    border-radius: 15px;
+    border-color: white;
+    background: orange;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#input:hover {
+    color: black;
+    background: white;
+}
+
+.discontener {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.discontener div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background: #329db6;
+    width: 50%;
+}
+
+.discontener img {
+  width: 50%;
+  height: 404px;
+}
+
+.discontener h1 {
+    color: #f6f3ef;
+    font-size: 2.1rem;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment {
+   margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comment span {
+    font-size: 3.7rem;
+}
+
+.loremcon {
+    width: 526px;
+    margin: 35px;
+    padding: 14px;
+}
+
+.lastcontener {
+    background: orange;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastcontener h1 {
+    font-size: 2.4rem;
+    padding: 14px;
+    color: white;
+}
+
+.lastcontener p {
+  
+    margin: 17px;
+}
+
+#email {
+    padding: 2px 25px;
+    border-radius: 10px;
+    width: 275px;
+    border-color: white;
+}
+
+.box{
+  display: flex;
+}
+
+#btn {
+    padding: 2px 15px;
+    margin: 0px -23px;
+    border-radius: 10px;
+    background: #542727;
+    color: white;
+    font-weight: bold;
+}
+
+#btn:hover {
+    color: black;
+    background: white;
+}
+
+.footer {
+    margin: 42px 0px 0px 0px;
+    height: 220px;
+    display: flex;
+    background: #433232cf;
+}
+
+.fbox-1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fbox-1 a {
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+@media (max-width: 900px){
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 999;
+        right: 46px;
+        position: absolute;
+        border: 3px solid #212529;
+        color: #212529;
+      }
+    
+      .header {
+        padding: 0px 0.8rem;
+        position: fixed;
+        width: 100%;
+      }
+    
+      .header .logo {
+        width: 15%;
+        height: 100%;
+      }
+    
+      .navbar {
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background: #e7f5ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        /* to get the tranisition  */
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+    
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+    
+      .navbar-list {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .active .navbar {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+      }
+    
+      .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+        display: block;
+      }
+    
+      .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+        display: none;
+      }
+
+     .search-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 530px;
+     }
+    #home{
+    height: 470px;
+  
+  }
+  .firstcontener{
+      margin-left: -500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 65px;
+  }
+  
+  #home h1{
+      margin-left: 0px;
+      font-size: 2rem;
+  }
+  #home p{
+      margin-left: 78px;
+      width: 261px;
+  }
+  #home input{
+      margin-left: 0px;
+  }
+
+  .stitem{
+    width: 100%;
+  }
+
+  .stitem p {
+    text-align: center;
+    margin-right: 11px;
+  }
+
+  .ourstory img {
+    width: 68vh;
+    height: 50vh;
+  }
+
+  .afterhome{
+    flex-direction: column;
+    margin-right: -153px;
+  }
+  .contener{
+    width: 100vh;
+    margin: 27px 8px;
+  }
+  .ourstory{
+    height:100%;
+  }
+  .jaihok{
+    padding: 13px;
+    text-align: center;
+    width: 65vh;
+    height: 70px;
+  }
+
+.discontener{
+    margin-top: 40px;
+}
+.discontener h1{
+    font-size: 2rem;
+    width: 30pvh;
+    margin-right: 100px;
+    width: 25vh;
+}
+.discontener img{
+  width: 59vh;
+  height: 45vh;
+}
+
+.about{
+    margin: 0px 25px;
+    text-align: center;
+    height: 22vh;
+}
+.comment{
+  height: 100%;
+  margin-bottom: 25px;
+}
+.loremcon p{
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.footer{
+  margin: 15px 0px 0px 0px;
+  padding: 0px 10px;
+  
+}
+  }
+ 
+  @media (max-width: 700px){
+    .firstcontener {
+      margin-right: -71px;
+    }
+
+    #home p{
+      margin-right: -55px;
+    }
+
+
+  }
+
+
+  @media (max-width: 500px){
+   .firstcontener{
+    margin-right: -275px;
+   }
+.about{
+  height: 100%;
+}
+
+#btn{
+  right: 47px;
+}
+  }
+
+
+  @media (max-width: 350px){
+
+    .search-box input{
+      display: none;
+    }
+    #home {
+      height: 333px;
+  }
+
+  .firstcontener {
+    margin-right: -360px;
+}
+#home p {
+  color: #dc5353;
+  font-size: 1.5rem;
+}
+
+.afterhome{
+  margin-top: 0px;
+    margin-bottom: 0px;
+}
+.discontener img {
+  height: 25vh;
+}
+.discontener div{
+  padding: 40px;
+}
+.about{
+  display: grid;
+}
+.loremcon {
+  margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+#email{
+  width: 14vh;
+}
+  }
